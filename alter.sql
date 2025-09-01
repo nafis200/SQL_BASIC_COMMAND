@@ -1,6 +1,11 @@
 
 SELECT * FROM person5
 
+DROP TABLE person5;
+
+TRUNCATE TABLE person5;
+
+
 ALTER TABLE person5
   ADD COLUMN email VARCHAR(30) DEFAULT'default@gmail.com' NOT NULL
 
